@@ -2,7 +2,7 @@
 
 A quick guide and setup script to get the Aurora 15 community revival servers working for FIFA 15 on Arch Linux using Bottles.
 
-Thanks to [Aurora]([https://aurorafut.com/]) for reviving FIFA 15 ❤️
+Thanks to [Aurora](https://aurorafut.com/) for reviving FIFA 15 ❤️
 
 ---
 
