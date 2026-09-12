@@ -66,21 +66,6 @@ Here's why: Aurora hooks FIFA 15's network traffic to the community servers usin
 Setting `dinput8` to `native,builtin` tells Wine to prioritize Aurora's hook file over Wine's dummy file. The script does this automatically, but if you do it manually in the Bottles GUI, just go to:
 **Bottle Settings → DLL Overrides → Add `dinput8` → set to `native,builtin`**.
 
-## Setting your screen resolution (skip fifaconfig)
-
-FIFA 15's default `fifasetup/fifaconfig.exe` uses ancient .NET 4.0 and often crashes under Wine. You don't need to touch it.
-
-Just open `fifasetup/config.ini` in your FIFA 15 folder with any text editor and change it directly:
-
-```ini
-LAUNCH_EXE = fifa15.exe
-SETTING_FOLDER = 'FIFA 15'
-RESOLUTIONWIDTH = 1920
-RESOLUTIONHEIGHT = 1080
-```
-
-Just change `RESOLUTIONWIDTH` and `RESOLUTIONHEIGHT` to whatever your monitor is.
-
 ## Controllers
 
 Arch Linux handles controllers out of the box through the kernel:
