@@ -43,7 +43,7 @@ chmod +x setup.sh
 You can also give it your FIFA 15 path directly:
 
 ```bash
-./setup.sh "/home/marley/Games/FIFA 15"
+./setup.sh "/home/username/FIFA 15"
 ```
 
 The script will automatically detect your files, create the bottle, set the DLL override, install the dependencies, and add the shortcut.
