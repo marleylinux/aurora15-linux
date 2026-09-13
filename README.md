@@ -27,7 +27,11 @@ Also make sure you have your graphics drivers installed (Vulkan):
 - **NVIDIA:** `nvidia-utils lib32-nvidia-utils`
 - **Intel:** `vulkan-intel lib32-vulkan-intel`
 
-And of course, your FIFA 15 game folder with `Aurora.exe` inside it.
+And your FIFA 15 game files:
+- **FIFA 15 game folder** (containing `fifa15.exe`).
+- **Aurora app (`Aurora.exe`):** Head to [aurorafut.com](https://aurorafut.com/), which will direct you to join their official Discord. Download `Aurora.exe` from the Discord channel, then either:
+  - Place `Aurora.exe` directly inside your `FIFA 15` folder (alongside `fifa15.exe`), **or**
+  - Point the setup script to the folder where you have it when running the script.
 
 ## The Quick Way (Setup Script)
 
